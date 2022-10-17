@@ -5,7 +5,7 @@
  * main-program entry point.
  *
  * Return:0 if no error, non-zero value if error.
- **/
+ */
 int main(void)
 {
 	int n;
@@ -26,5 +26,5 @@ int main(void)
 	{
 		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ldigit);
 	}
-	return (0);
+	return (0;
 }
