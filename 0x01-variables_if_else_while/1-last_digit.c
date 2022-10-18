@@ -1,15 +1,14 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include <stdio.h>
 /**
- * main-program entry point.
- *
- * Return:0 if no error, non-zero value if error.
+ * main - Entry 
+ * Return: Always 0
  */
 int main(void)
 {
 	int n;
-	int 1digit;
+	int ldigit;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
